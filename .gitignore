@@ -10,3 +10,17 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/target/
+
+# skip local config
+/.project
+/.classpath
+/.settings/
+/bin/
+/target/
+/.springBeans
+/log.info
+.mvn/
+.factorypath
+/.apt_generated/
+/hs*.log

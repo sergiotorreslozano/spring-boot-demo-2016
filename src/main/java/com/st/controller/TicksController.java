@@ -18,7 +18,7 @@ public class TicksController {
 	private TicksRepository ticksRepository;
 
 	@RequestMapping(value = "/api/ticks", method = RequestMethod.GET)
-	public List<Ticks> fintAllTicks() {
+	public List<Ticks> findAllTicks() {
 		return ticksRepository.findAll();
 	}
 
